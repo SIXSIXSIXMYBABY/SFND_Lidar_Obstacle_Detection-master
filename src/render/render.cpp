@@ -28,6 +28,10 @@ void renderRays(pcl::visualization::PCLVisualizer::Ptr& viewer, const Vect3& ori
 	{
 		viewer->addLine(pcl::PointXYZ(origin.x, origin.y, origin.z), point,1,0,0,"ray"+std::to_string(countRays));
 		countRays++;
+
+
+
+		
 	}
 }
 
